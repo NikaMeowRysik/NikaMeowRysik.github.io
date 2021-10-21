@@ -1,0 +1,29 @@
+body{
+background-color:C4B2FF;	
+}
+footer{
+	background-color:#73FFB0;
+}
+img{
+	height:500px;
+	width:370px;
+	margin:20px;
+}
+h1{
+	color:brown;
+}
+img:hover{
+	height:400;
+	width:270;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+		body{
+			background-color:#B100F2;
+			
+		}
+		
+}

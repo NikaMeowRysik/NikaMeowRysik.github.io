@@ -1,0 +1,24 @@
+body{
+background-color:C4B2FF;	
+}
+form{
+	font-family:cursive;
+	border:2px solid black;
+	background-color: silver;
+	width:300px;
+	border-radius:15px;
+}
+input{
+	width:250px;
+}
+	
+.picks{
+ background-color:yellow;
+ width:150px;
+ height:25px;
+ font-family:cursive;
+ margin:10px;
+}
+.i{
+	background-color:9D51FF;
+}

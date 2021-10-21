@@ -1,0 +1,53 @@
+body{
+	background-color:#F4EDE5;
+	margin:0;
+}
+div{
+	width:100px; 
+	height:100px; 
+	position:absolute;
+	top:25%;
+	left:10%;
+}
+span{
+	width:40%;
+	height:40%; 
+	position:absolute; 
+	border-radius:50%;
+	display: block;
+	box-shadow:2px 2px 3px rgba(0,0,0,.4);
+	animation:twoan 2s infinite ease-in-out;
+}
+.a{
+    background-color:#8D7CFF; 
+	animation-delay:1.5s;
+}
+.b{
+    background-color:#21FFAE; 
+	animation-delay:1s;
+}
+.c{
+    background-color:#FFD252; 
+	animation-delay:0.5s;
+}
+.d{
+    background-color:#FF6E82; 
+}
+@keyframes twoan{
+	0%{
+	transform: translate(0);
+	border-radius:50%;
+	} 
+25%{
+    transform: translate(150%) scale(0.5);
+	border-radius:0%;
+	} 
+50%{
+    transform:translate(150%,150%);
+	border-radius:50%;
+	} 
+75%{
+	transform:translate(0%,150%) scale(0.5);
+	border-radius:0%;
+	}
+}
